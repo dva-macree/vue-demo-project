@@ -7,7 +7,7 @@
                 <h2></h2>
                 <small></small>
             </div>
-            <a href="#" class="o2_cover_btn" v-on:click="toggleLoadSign()">立即生成签名</a>
+            <a href="#" class="o2_cover_btn" v-on:click="toggleLoadSign()">点我</a>
         </div>
     </div>
 <!--    <warn></warn>-->

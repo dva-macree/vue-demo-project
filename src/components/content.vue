@@ -15,7 +15,7 @@
 						<input type="text" class="o2_input_text"  name="c_name" placeholder="中文名" v-model="info.c_name" debounce="500">
 					</div>
 					<div class="o2_btns btn_download">
-						<a href="javascript:;" class="o2_btn bg1 " v-on:click="downloadRes()">生成签名</a>	
+						<a href="javascript:;" class="o2_btn bg1 " v-on:click="downloadRes()">生成头像</a>	
 					</div>
 				</div>
 				<!-- E input -->
@@ -33,34 +33,6 @@
 						<div class="o2_input_color">
 							<input type="color"  v-model="style.co_line">
 							<input type="text" class="o2_input_text"  v-model="style.co_line | formatColor" debounce="500">
-						</div>
-					</div>
-					<div class="o2_form_row">
-						<label  class="o2_label">名字\分组</label>
-						<div class="o2_input_color">
-							<input type="color"  v-model="style.co_title">
-							<input type="text" class="o2_input_text"  v-model="style.co_title | formatColor" debounce="500">
-						</div>
-					</div>
-					<div class="o2_form_row">
-						<label  class="o2_label">个人信息</label>
-						<div class="o2_input_color">
-							<input type="color"  v-model="style.co_item">
-							<input type="text" class="o2_input_text"  v-model="style.co_item | formatColor" debounce="500">
-						</div>
-					</div>
-					<div class="o2_form_row">
-						<label  class="o2_label">图标颜色</label>
-						<div class="o2_input_color">
-							<input type="color"   v-model="style.co_icon">
-							<input type="text" class="o2_input_text"  v-model="style.co_icon | formatColor"  debounce="500">
-						</div>
-					</div>
-					<div class="o2_form_row">
-						<label  class="o2_label">面板底色</label>
-						<div class="o2_input_color">
-							<input type="color" v-model="style.co_bg">
-							<input type="text" class="o2_input_text"  v-model="style.co_bg | formatColor" v-validate="{color:style.co_bg}">
 						</div>
 					</div>
 					<div class="o2_btns">
